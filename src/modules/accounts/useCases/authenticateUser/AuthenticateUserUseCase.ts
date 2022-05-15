@@ -3,7 +3,7 @@ import { IUsersRepository } from "../../repositories/IUsersRepository";
 import { sign } from "jsonwebtoken";
 
 import { compare } from "bcrypt";
-import { AppError } from "../../../../database/errors/appError";
+import { AppError } from "../../../../shared/errors/appError";
 
 interface IRequest {
   email: string;
